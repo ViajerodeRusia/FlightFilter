@@ -6,12 +6,9 @@ import com.gridnine.testing.FlightFilter.flight_filter.impl.DepartureBeforeNowFi
 import com.gridnine.testing.FlightFilter.flight_filter.impl.GroundTimeExceedsTwoHoursFilter;
 import com.gridnine.testing.FlightFilter.testing.Flight;
 import com.gridnine.testing.FlightFilter.testing.FlightBuilder;
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import java.util.List;
 
-@SpringBootApplication
 public class FlightFilterApplication {
 
 	public static void main(String[] args) {

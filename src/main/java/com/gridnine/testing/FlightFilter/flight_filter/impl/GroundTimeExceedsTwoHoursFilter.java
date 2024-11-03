@@ -47,7 +47,7 @@ public class GroundTimeExceedsTwoHoursFilter implements FlightFilter {
                         totalGroundTimeInMinutes += groundTime.toMinutes();
                     }
                     // Проверяем, что общее время на земле превышает 2 часов (120 минут)
-                    return totalGroundTimeInMinutes > 120;
+                    return totalGroundTimeInMinutes <= 120;
                 })
                 .collect(Collectors.toList());
     }
