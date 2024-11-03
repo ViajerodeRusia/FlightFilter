@@ -13,7 +13,7 @@ import java.util.List;
  *  * перелёты, где все сегменты имеют корректные даты (дата вылета до текущего момента времени).
  *  * </p>
  */
-public class DepartureBeforeNow implements FlightFilter {
+public class DepartureBeforeNowFilter implements FlightFilter {
     /**
      * Фильтрует список перелётов, исключая те, где хотя бы один сегмент
      * вылетает после текущего момента времени.
